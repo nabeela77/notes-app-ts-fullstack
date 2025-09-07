@@ -1,0 +1,66 @@
+.note-item {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.note-item textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  margin-bottom: 0.5rem;
+}
+
+.note-item:hover {
+  box-shadow: 0 8px 16px #928f8f;
+}
+
+.note-item small {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.note-item-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.note-item-buttons button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.note-item-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.note-item-buttons button:nth-child(1) {
+  background-color: #dc3545;
+}
+.note-item-buttons button:nth-child(2) {
+  background-color: #fec76f;
+}
+
+.note-item-buttons button:nth-child(1):hover {
+  background-color: #a71d2a;
+}
+
+.note-item-buttons button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
