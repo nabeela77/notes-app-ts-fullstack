@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && mkdir -p ../notes-backend/dist/public && cp -r dist/* ../notes-backend/dist/public",
+    "build": "vite build && mkdir -p ../backend/dist/public && cp -r dist/* ../backend/dist/public",
     "lint": "eslint .",
     "preview": "vite preview"
   },
