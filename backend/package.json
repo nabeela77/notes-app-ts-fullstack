@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "seed": "ts-node-dev --transpile-only scripts/seed.ts",
-    "build": "npm --prefix ../notes-frontend install && npm --prefix ../notes-frontend run build && tsc"
+    "build": "npm --prefix ../frontend install && npm --prefix ../frontend run build && tsc"
   },
   "author": "",
   "license": "ISC",
